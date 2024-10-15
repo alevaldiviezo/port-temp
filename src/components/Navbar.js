@@ -6,19 +6,19 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
   return (
     <nav className="navbar">
       <div className="navbar-content">
-        <h1><Link to="/">My Portfolio</Link></h1>
+        <h1><Link to="/port-temp">My Portfolio</Link></h1>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/port-temp">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/port-temp/about">About</Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/port-temp/projects">Projects</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/port-temp/contact">Contact</Link>
           </li>
           {/* <li>
             <a
